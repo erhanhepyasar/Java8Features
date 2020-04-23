@@ -1,5 +1,6 @@
 package javaeight.b.lambda.a.process.a;
 
+@FunctionalInterface
 interface A {
 	void show();
 }

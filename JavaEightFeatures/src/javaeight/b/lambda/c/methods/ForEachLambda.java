@@ -1,4 +1,4 @@
-package javaeight.b.lambda.b.methods;
+package javaeight.b.lambda.c.methods;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -25,8 +25,6 @@ public class ForEachLambda {
 		}
 
 		// Internal loop -> Much faster, suitable for big data
-		numbers.forEach(i -> System.out.println(i)); // Lambda // Consumer Interface
-
 		numbers.forEach(number -> {
 
 			if (number % 10 == 0) {
@@ -34,6 +32,10 @@ public class ForEachLambda {
 			}
 
 		});
+
+		// Lambda // Consumer Interface
+		numbers.forEach(i -> System.out.println(i));
+
 	}
 
 }

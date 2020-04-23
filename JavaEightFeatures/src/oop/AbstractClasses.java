@@ -10,7 +10,7 @@ class Living {
 	}
 }
 
-abstract class Human extends Living implements Movable { // abstract class can extend normal class
+abstract class Human extends Living implements Movable {
 	public abstract void eat();
 
 	public void walk() {

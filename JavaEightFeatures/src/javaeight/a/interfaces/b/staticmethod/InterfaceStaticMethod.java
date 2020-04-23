@@ -17,6 +17,8 @@ public class InterfaceStaticMethod {
 
 	public static void main(final String[] args) {
 		I.show();
-		System.out.println(I.add(5, 4));
+
+		final int result = I.add(5, 4);
+		System.out.println(result);
 	}
 }

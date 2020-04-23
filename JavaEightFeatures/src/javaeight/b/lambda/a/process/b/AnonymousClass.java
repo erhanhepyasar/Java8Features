@@ -5,7 +5,7 @@ interface A {
 	void show();
 }
 
-public class AnonymousInnerClass {
+public class AnonymousClass {
 
 	public static void main(final String[] args) {
 
@@ -19,19 +19,10 @@ public class AnonymousInnerClass {
 		};
 
 		a.show();
-		
-		final A a2 = new A() {
 
-			@Override
-			public void show() {
-				System.out.println("show a2");
-			}
-			
-		};
-		
-		a2.show();
+		// NEXT STEP:
+		// SonarLint- Major: Anonymous inner classes containing only one method should become lambdas
+
 	}
-	
-	// C:\Users\erhan\ew\OOP\bin\javaeight\lambda\process\b
 
 }

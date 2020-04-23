@@ -18,6 +18,13 @@ interface J {
 
 class C implements I, J {
 
+//  Explicitly specify which default method is to be used (Multiple inheritance)
+//	@Override
+//	public void show() {
+//		I.super.show();
+//	}
+
+	// override the default method
 	@Override
 	public void show() {
 		System.out.println("show in -class-");
