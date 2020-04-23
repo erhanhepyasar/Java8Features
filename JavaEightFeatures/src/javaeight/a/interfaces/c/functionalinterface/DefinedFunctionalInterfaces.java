@@ -51,7 +51,6 @@ public class DefinedFunctionalInterfaces {
 		final Comparator<Integer> comparator; // java.util;
 
 //	java.util.function package
-
 		// Predicate
 		final Predicate<Integer> predicate;
 		final IntPredicate intPredicate;
