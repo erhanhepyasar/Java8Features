@@ -61,7 +61,7 @@ public class DefinedFunctionalInterfaces {
 		final BinaryOperator<Integer> binaryOperator;
 		final IntBinaryOperator intBinaryOperator;
 		final LongBinaryOperator longBinaryOperator;
-		final DoubleBinaryOperator doubleBinaryOperator;
+		final DoubleBinaryOperator doubleBinaryOperator; 
 
 	}
 
