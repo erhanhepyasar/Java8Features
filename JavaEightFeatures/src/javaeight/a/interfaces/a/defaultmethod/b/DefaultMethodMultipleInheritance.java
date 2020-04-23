@@ -25,7 +25,7 @@ class C implements I, J {
 
 }
 
-public class InterfaceDefaultMethodInheritance {
+public class DefaultMethodMultipleInheritance {
 
 	public static void main(final String[] args) {
 		final C c = new C();

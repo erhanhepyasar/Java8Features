@@ -20,7 +20,7 @@ class DemoImpl implements Demo {
 
 }
 
-public class InterfaceDefaultMethod {
+public class DefaultMethod {
 
 	public static void main(final String[] args) {
 
