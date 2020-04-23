@@ -37,7 +37,7 @@ public class DefinedFunctionalInterfaces {
 		final Function<Integer, Integer> function;
 		final IntFunction<Integer> intFunction;
 		final LongFunction<String> longFunction;
-		final DoubleFunction<Boolean> doubleFunction;
+		final DoubleFunction<Boolean> doubleFunction; 
 		final ToIntFunction<Integer> toIntFunction;
 		final ToLongFunction<Integer> toLongFunction;
 		final ToDoubleFunction<Integer> toDoubleFunction;
