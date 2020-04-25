@@ -1,4 +1,4 @@
-package javaeight.c.methodreference;
+package javaeight.c.methodreference.d.custom;
 
 interface Parser {
 	String parse(String str);
@@ -25,7 +25,7 @@ class MyPrinter {
 	}
 }
 
-public class Demo {
+public class CustomMethod {
 
 	public static void main(final String[] args) {
 		final StringParser sp = new StringParser();

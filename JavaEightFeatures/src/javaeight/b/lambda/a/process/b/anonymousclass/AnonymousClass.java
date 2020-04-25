@@ -1,4 +1,4 @@
-package javaeight.b.lambda.a.process.b;
+package javaeight.b.lambda.a.process.b.anonymousclass;
 
 @FunctionalInterface
 interface A {
@@ -21,7 +21,8 @@ public class AnonymousClass {
 		a.show();
 
 		// NEXT STEP:
-		// SonarLint- Major: Anonymous inner classes containing only one method should become lambdas
+		// SonarLint- Major:
+		// Anonymous inner classes containing only one method should become lambdas
 
 	}
 

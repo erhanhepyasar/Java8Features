@@ -1,4 +1,4 @@
-package javaeight.b.lambda.a.process.b.anonymousclasstypes;
+package javaeight.b.lambda.a.process.b.anonymousclass.anonymousclasstypes;
 
 public class InsideConstructorArgument {
 

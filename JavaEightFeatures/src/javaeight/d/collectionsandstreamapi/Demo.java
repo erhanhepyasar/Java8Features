@@ -1,4 +1,4 @@
-package javaeight.d.streamapi;
+package javaeight.d.collectionsandstreamapi;
 
 import java.util.ArrayList;
 import java.util.List;

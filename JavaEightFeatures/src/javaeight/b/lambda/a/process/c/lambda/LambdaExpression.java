@@ -1,4 +1,4 @@
-package javaeight.b.lambda.a.process.c;
+package javaeight.b.lambda.a.process.c.lambda;
 
 @FunctionalInterface
 interface A {

@@ -20,5 +20,6 @@ public class InterfaceStaticMethod {
 
 		final int result = I.add(5, 4);
 		System.out.println(result);
+
 	}
 }

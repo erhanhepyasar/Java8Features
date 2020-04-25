@@ -1,19 +1,23 @@
-package javaeight.b.lambda.a.process.b.anonymousclasstypes;
+package javaeight.b.lambda.a.process.b.anonymousclass.anonymousclasstypes;
 
-public class ImplementsInterface {
+public class ExtendsClass {
 
 	public static void main(final String[] args) {
+
 		// Here we are using Anonymous Inner class
-		// that implements a interface i.e. Here Runnable interface
-		final Runnable r = new Runnable() {
+		// that extends a class i.e. Here a Thread class
+
+		final Thread t = new Thread() {
 			@Override
 			public void run() {
 				System.out.println("Child Thread");
 			}
 		};
-		final Thread t = new Thread(r);
+
 		t.start();
+
 		System.out.println("Main Thread");
+
 	}
 
 }
