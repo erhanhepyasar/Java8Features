@@ -5,8 +5,8 @@ import java.util.function.Function;
 import java.util.function.Predicate;
 import java.util.function.Supplier;
 
-import javaeight.a.interfaces.c.functionalinterface.c.examples.instructor.Instructor;
-import javaeight.a.interfaces.c.functionalinterface.c.examples.instructor.Instructors;
+import javaeight.b.lambda.c.lambdafunctionalinterface.c.allfunctionalinterfaces.instructor.Instructor;
+import javaeight.b.lambda.c.lambdafunctionalinterface.c.allfunctionalinterfaces.instructor.Instructors;
 
 public class InstanceMethodReference {
 	@SuppressWarnings("unused")

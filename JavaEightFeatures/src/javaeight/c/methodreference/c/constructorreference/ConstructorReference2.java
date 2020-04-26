@@ -2,8 +2,8 @@ package javaeight.c.methodreference.c.constructorreference;
 
 import java.util.Arrays;
 
-import javaeight.a.interfaces.c.functionalinterface.c.examples.instructor.Instructor;
-import javaeight.a.interfaces.c.functionalinterface.c.examples.instructor.InstructorFactory;
+import javaeight.b.lambda.c.lambdafunctionalinterface.c.allfunctionalinterfaces.instructor.Instructor;
+import javaeight.b.lambda.c.lambdafunctionalinterface.c.allfunctionalinterfaces.instructor.InstructorFactory;
 
 public class ConstructorReference2 {
 	public static void main(final String[] args) {
