@@ -1,4 +1,4 @@
-package javaeight.d.collectionsandstreamapi.b.transformingalist;
+package javaeight.d.streamapi.a.intro;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -9,7 +9,7 @@ public class UpperCase {
 	public static void main(final String[] args) {
 		final List<String> friends = Arrays.asList("Brian", "Nate", "Neal", "Raju", "Sara", "Scott");
 
-		// 1. Imperative
+		// a. Loop (Old way)
 		final List<String> uppercaseNames = new ArrayList<>();
 		for (final String name : friends) {
 			uppercaseNames.add(name.toUpperCase());
@@ -17,24 +17,11 @@ public class UpperCase {
 
 		System.out.println(uppercaseNames);
 
-		// 2. Declarative - Lambda
+		// b. Stream
 		friends.stream()
 				.map(name -> name.toUpperCase())
+//				.map(String::toUpperCase)
 				.forEach(name -> System.out.println(name));
-
-		System.out.println("---------------------");
-
-		// 3. Declarative - Method Reference
-		friends.stream()
-				.map(String::toUpperCase)
-				.forEach(System.out::println);
-
-		System.out.println("---------------------");
-
-		// 4. Declarative - Method Reference - Count letters
-		friends.stream()
-				.map(String::length)
-				.forEach(System.out::println);
 
 	}
 
