@@ -2,11 +2,8 @@ package javaeight.b.lambda.c.lambdafunctionalinterface.a.studentexample.students
 
 public class Student {
 	int id;
-
 	String name;
-
 	double percentage;
-
 	String specialization;
 
 	public Student(final int id, final String name, final double percentage, final String specialization) {

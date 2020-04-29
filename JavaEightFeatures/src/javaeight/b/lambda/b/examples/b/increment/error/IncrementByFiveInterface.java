@@ -1,4 +1,4 @@
-package javaeight.b.lambda.b.examples.b.increment;
+package javaeight.b.lambda.b.examples.b.increment.error;
 
 @FunctionalInterface
 public interface IncrementByFiveInterface {

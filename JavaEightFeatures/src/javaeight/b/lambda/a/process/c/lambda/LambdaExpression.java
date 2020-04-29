@@ -9,8 +9,18 @@ public class LambdaExpression {
 
 	public static void main(final String[] args) {
 
-		final A a = () -> System.out.println("A");
-		a.show();
+		// Anonymous class to Lambda Transformation
+		final A a = new A() {
+
+			@Override
+			public void show() {
+				System.out.println("Hello !!");
+
+			}
+		};
+
+//		final A a = () -> System.out.println("A");
+//		a.show();
 
 	}
 
