@@ -25,11 +25,11 @@ public class ClassHasHigherPriorityThanInterface {
 
 	public static void main(final String[] args) {
 
-		final X x = new X();
-		x.show();
+//		final X x = new X();
+//		x.show();
 
-		final Y y = new Y();
-		y.show();
+//		final Y y = new Y();
+//		y.show();
 
 		final Z z = new Z();
 		z.show();

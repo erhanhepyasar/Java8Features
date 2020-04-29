@@ -12,6 +12,7 @@ public class OptionalOfEmptyExample {
 
 	public static Optional<String> getWords() {
 		final String[] words = new String[10];
+		// words[1] = "test";
 		words[1] = "test";
 		final Optional<String> optionalS = Optional.ofNullable(words[1]);
 		if (optionalS.isPresent())

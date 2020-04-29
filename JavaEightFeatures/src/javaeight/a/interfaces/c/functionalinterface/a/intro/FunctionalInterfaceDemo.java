@@ -4,9 +4,12 @@ package javaeight.a.interfaces.c.functionalinterface.a.intro;
 interface IFunctionalSimple {
 	// abstract method
 	void fly();
+
 }
 
-@FunctionalInterface // must have a single abstract method, but may have a number of default and static methods
+//must have a single abstract method, 
+//but may have any of default and static methods
+@FunctionalInterface
 interface IFunctional {
 
 	// abstract method

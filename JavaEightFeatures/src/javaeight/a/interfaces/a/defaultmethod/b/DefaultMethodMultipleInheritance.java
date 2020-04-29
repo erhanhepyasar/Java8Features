@@ -20,17 +20,17 @@ class C implements I, J {
 
 //	Option-1
 //  Explicitly specify which default method is to be used (Multiple inheritance)
-	@Override
-	public void show() {
-		I.super.show();
-	}
+//	@Override
+//	public void show() {
+//		I.super.show();
+//	}
 
 //	Option-2
 // 	Override the default method
-//	@Override
-//	public void show() {
-//		System.out.println("show in -class-");
-//	}
+	@Override
+	public void show() {
+		System.out.println("show in -class-");
+	}
 
 }
 

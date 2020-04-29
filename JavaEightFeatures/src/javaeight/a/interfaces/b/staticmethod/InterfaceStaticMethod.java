@@ -5,7 +5,7 @@ package javaeight.a.interfaces.b.staticmethod;
 
 interface I {
 	static void show() {
-		System.out.println("Hello Netas");
+		System.out.println("This is a static method in interface I");
 	}
 
 	static int add(final int a, final int b) {

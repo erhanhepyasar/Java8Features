@@ -13,12 +13,23 @@ public class AnonymousClass {
 
 			@Override
 			public void show() {
-				System.out.println("show a");
-			}
+				System.out.println("Hello !!");
 
+			}
 		};
 
 		a.show();
+
+//		final A a = new A() {
+//
+//			@Override
+//			public void show() {
+//				System.out.println("show a");
+//			}
+//
+//		};
+//
+//		a.show();
 
 		// NEXT STEP:
 		// SonarLint- Major:

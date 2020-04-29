@@ -24,7 +24,7 @@ public class DefaultMethod {
 
 	public static void main(final String[] args) {
 
-		final DemoImpl demo = new DemoImpl();
+		final Demo demo = new DemoImpl();
 
 		demo.show();
 		demo.abc();
