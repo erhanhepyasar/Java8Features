@@ -10,17 +10,10 @@ public class LambdaExpression {
 	public static void main(final String[] args) {
 
 		// Anonymous class to Lambda Transformation
-		final A a = new A() {
+		final A a = () -> System.out.println("Hello !!");
 
-			@Override
-			public void show() {
-				System.out.println("Hello !!");
-
-			}
-		};
-
-//		final A a = () -> System.out.println("A");
-//		a.show();
+//		final A b = () -> System.out.println("A");
+//		b.show();
 
 	}
 

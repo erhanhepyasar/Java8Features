@@ -13,12 +13,21 @@ public class AnonymousClass {
 
 			@Override
 			public void show() {
-				System.out.println("Hello !!");
+				// TODO Auto-generated method stub
 
 			}
 		};
 
-		a.show();
+//		final A a = new A() {
+//
+//			@Override
+//			public void show() {
+//				System.out.println("Hello !!");
+//
+//			}
+//		};
+
+//		a.show();
 
 //		final A a = new A() {
 //
